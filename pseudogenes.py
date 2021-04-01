@@ -78,7 +78,7 @@ for i in range(0, len(df_pseudo_short[queryID])):
 df_pseudo_short = df_pseudo_short[df_pseudo_short["comment"] == "Ref is longer"]
 
 # Merge and export file
-df_concat = pd.concat([df_pseudo_split, df_pseudo_short], axis = 0)
+df_concat = pd.concat([df_pseudo_split, df_pseudo_short], axis = 0, sort=True)
 
 df_concat = df_concat[[
     "Gene",
