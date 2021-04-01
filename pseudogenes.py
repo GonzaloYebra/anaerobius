@@ -94,5 +94,5 @@ df_concat = df_concat[[
     "Pseudogene type"
     ]]
 
-output_file = queryID + "_pseudogenes.csv"
+output_file = queryID + "_" + refID + "_pseudogenes.csv"
 df_concat.to_csv(output_file, sep=',')
