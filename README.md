@@ -9,6 +9,6 @@ a folder containing:
     - annotated genomes (genbank format) of reference and query with names consistent with those in the Roary file. This is to calculate gene lengths from both genomes.
 
 Usage:
-    python pseudogenes.py queryID refID path-to-files
+    `python pseudogenes.py queryID refID path-to-files`
 
 Dependencies: python 3, biopython, pandas.
